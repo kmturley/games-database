@@ -1,0 +1,23 @@
+{
+  "name": "games-database",
+  "version": "1.0.0",
+  "description": "Example games database",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "postinstall": "npx playwright install",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "games",
+    "database"
+  ],
+  "author": "kmturley",
+  "license": "MIT",
+  "dependencies": {
+    "crawlee": "^3.11.3",
+    "playwright": "^1.47.0"
+  }
+}
