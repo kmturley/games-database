@@ -20,8 +20,24 @@ Run development build:
 
 ## Examples
 
+All
+
 - https://kmturley.github.io/games-database
-- https://kmturley.github.io/games-database/red-dead-redemption.json
+
+By Slug
+
+- https://kmturley.github.io/games-database/epic/slug/lego-bricktales.json
+- https://kmturley.github.io/games-database/gog/slug/lego-bricktales.json
+- https://kmturley.github.io/games-database/metacritic/slug/lego-bricktales.json
+- https://kmturley.github.io/games-database/steam/slug/lego-bricktales.json
+
+By Id
+
+- https://kmturley.github.io/games-database/epic/id/lego-bricktales-7ccf9b.json
+- https://kmturley.github.io/games-database/gog/id/1488738238.json
+- https://kmturley.github.io/games-database/metacritic/id/lego-bricktales.json
+- https://kmturley.github.io/games-database/steam/id/1898290.json
+
 
 ## Contact
 

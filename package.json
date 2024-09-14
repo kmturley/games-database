@@ -18,6 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "crawlee": "^3.11.3",
-    "playwright": "^1.47.0"
+    "playwright": "^1.47.0",
+    "puppeteer": "^23.3.0",
+    "slugify": "^1.6.6"
   }
 }
