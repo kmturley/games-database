@@ -6,12 +6,6 @@
       "title": "LEGO® Bricktales",
       "url": "https://store.epicgames.com/en-US/p/lego-bricktales-7ccf9b"
     },
-    "gog": {
-      "id": "1488738238",
-      "slug": "lego-bricktales",
-      "title": "LEGO® Bricktales",
-      "url": "https://www.gog.com/en/game/lego_bricktales"
-    },
     "metacritic": {
       "id": "lego-bricktales",
       "slug": "lego-bricktales",
@@ -26,12 +20,20 @@
       "url": "https://store.steampowered.com/app/1898290/LEGO_Bricktales/?snr=1_7_7_151_150_1"
     }
   },
-  "unravel": {
+  "dollar1999": {
     "epic": {
       "id": "unravel-ce69bb",
-      "slug": "unravel",
-      "title": "Unravel",
+      "slug": "dollar1999",
+      "title": "$19.99",
       "url": "https://store.epicgames.com/en-US/p/unravel-ce69bb"
+    }
+  },
+  "skelethrone-the-chronicles-of-ericona": {
+    "gog": {
+      "id": "1204087532",
+      "slug": "skelethrone-the-chronicles-of-ericona",
+      "title": "Skelethrone: The Chronicles of Ericona",
+      "url": "https://www.gog.com/en/game/skelethrone_the_chronicles_of_ericona"
     }
   },
   "baldurs-gate-3": {
@@ -53,14 +55,6 @@
       "slug": "baldurs-gate-3",
       "title": "Baldur's Gate 3",
       "url": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/?snr=1_7_7_151_150_1"
-    }
-  },
-  "skelethrone-the-chronicles-of-ericona": {
-    "gog": {
-      "id": "1204087532",
-      "slug": "skelethrone-the-chronicles-of-ericona",
-      "title": "Skelethrone: The Chronicles of Ericona",
-      "url": "https://www.gog.com/en/game/skelethrone_the_chronicles_of_ericona"
     }
   },
   "counter-strike-2": {
