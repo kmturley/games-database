@@ -7,27 +7,6 @@
       "url": "https://www.gog.com/en/game/trap_yuri_garden"
     }
   },
-  "baldurs-gate-3": {
-    "gog": {
-      "id": "1456460669",
-      "slug": "baldurs-gate-3",
-      "title": "Baldur's Gate 3",
-      "url": "https://www.gog.com/en/game/baldurs_gate_iii"
-    },
-    "metacritic": {
-      "id": "baldurs-gate-3",
-      "slug": "baldurs-gate-3",
-      "score": 96,
-      "title": "Baldur's Gate 3",
-      "url": "https://www.metacritic.com/game/baldurs-gate-3/"
-    },
-    "steam": {
-      "id": "1086940",
-      "slug": "baldurs-gate-3",
-      "title": "Baldur's Gate 3",
-      "url": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/?snr=1_7_7_151_150_1"
-    }
-  },
   "lego-bricktales": {
     "gog": {
       "id": "1488738238",
@@ -47,6 +26,27 @@
       "slug": "lego-bricktales",
       "title": "LEGO® Bricktales",
       "url": "https://store.steampowered.com/app/1898290/LEGO_Bricktales/?snr=1_7_7_151_150_1"
+    }
+  },
+  "baldurs-gate-3": {
+    "gog": {
+      "id": "1456460669",
+      "slug": "baldurs-gate-3",
+      "title": "Baldur's Gate 3",
+      "url": "https://www.gog.com/en/game/baldurs_gate_iii"
+    },
+    "metacritic": {
+      "id": "baldurs-gate-3",
+      "slug": "baldurs-gate-3",
+      "score": 96,
+      "title": "Baldur's Gate 3",
+      "url": "https://www.metacritic.com/game/baldurs-gate-3/"
+    },
+    "steam": {
+      "id": "1086940",
+      "slug": "baldurs-gate-3",
+      "title": "Baldur's Gate 3",
+      "url": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/?snr=1_7_7_151_150_1"
     }
   },
   "counter-strike-2": {
