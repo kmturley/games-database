@@ -1,5 +1,11 @@
 {
   "lego-bricktales": {
+    "epic": {
+      "id": "lego-bricktales-7ccf9b",
+      "slug": "lego-bricktales",
+      "title": "LEGO® Bricktales",
+      "url": "https://store.epicgames.com/en-US/p/lego-bricktales-7ccf9b"
+    },
     "gog": {
       "id": "1488738238",
       "slug": "lego-bricktales",
@@ -18,6 +24,14 @@
       "slug": "lego-bricktales",
       "title": "LEGO® Bricktales",
       "url": "https://store.steampowered.com/app/1898290/LEGO_Bricktales/?snr=1_7_7_151_150_1"
+    }
+  },
+  "unravel": {
+    "epic": {
+      "id": "unravel-ce69bb",
+      "slug": "unravel",
+      "title": "Unravel",
+      "url": "https://store.epicgames.com/en-US/p/unravel-ce69bb"
     }
   },
   "counter-strike-2": {
