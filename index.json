@@ -1,11 +1,26 @@
 {
-  "lego-bricktales": {
-    "epic": {
-      "id": "lego-bricktales-7ccf9b",
-      "slug": "lego-bricktales",
-      "title": "LEGO® Bricktales",
-      "url": "https://store.epicgames.com/en-US/p/lego-bricktales-7ccf9b"
+  "baldurs-gate-3": {
+    "gog": {
+      "id": "1456460669",
+      "slug": "baldurs-gate-3",
+      "title": "Baldur's Gate 3",
+      "url": "https://www.gog.com/en/game/baldurs_gate_iii"
     },
+    "metacritic": {
+      "id": "baldurs-gate-3",
+      "slug": "baldurs-gate-3",
+      "score": 96,
+      "title": "Baldur's Gate 3",
+      "url": "https://www.metacritic.com/game/baldurs-gate-3/"
+    },
+    "steam": {
+      "id": "1086940",
+      "slug": "baldurs-gate-3",
+      "title": "Baldur's Gate 3",
+      "url": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/?snr=1_7_7_151_150_1"
+    }
+  },
+  "lego-bricktales": {
     "gog": {
       "id": "1488738238",
       "slug": "lego-bricktales",
@@ -26,14 +41,6 @@
       "url": "https://store.steampowered.com/app/1898290/LEGO_Bricktales/?snr=1_7_7_151_150_1"
     }
   },
-  "unravel": {
-    "epic": {
-      "id": "unravel-ce69bb",
-      "slug": "unravel",
-      "title": "Unravel",
-      "url": "https://store.epicgames.com/en-US/p/unravel-ce69bb"
-    }
-  },
   "counter-strike-2": {
     "metacritic": {
       "id": "counter-strike-2",
@@ -47,21 +54,6 @@
       "slug": "counter-strike-2",
       "title": "Counter-Strike 2",
       "url": "https://store.steampowered.com/app/730/CounterStrike_2/?snr=1_7_7_151_150_1"
-    }
-  },
-  "baldurs-gate-3": {
-    "metacritic": {
-      "id": "baldurs-gate-3",
-      "slug": "baldurs-gate-3",
-      "score": 96,
-      "title": "Baldur's Gate 3",
-      "url": "https://www.metacritic.com/game/baldurs-gate-3/"
-    },
-    "steam": {
-      "id": "1086940",
-      "slug": "baldurs-gate-3",
-      "title": "Baldur's Gate 3",
-      "url": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/?snr=1_7_7_151_150_1"
     }
   }
 }
