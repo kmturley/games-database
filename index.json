@@ -1,5 +1,17 @@
 {
   "lego-bricktales": {
+    "epic": {
+      "id": "lego-bricktales-7ccf9b",
+      "slug": "lego-bricktales",
+      "title": "LEGO® Bricktales",
+      "url": "https://store.epicgames.com/en-US/p/lego-bricktales-7ccf9b"
+    },
+    "gog": {
+      "id": "1488738238",
+      "slug": "lego-bricktales",
+      "title": "LEGO® Bricktales",
+      "url": "https://www.gog.com/en/game/lego_bricktales"
+    },
     "metacritic": {
       "id": "lego-bricktales",
       "slug": "lego-bricktales",
@@ -14,7 +26,21 @@
       "url": "https://store.steampowered.com/app/1898290/LEGO_Bricktales/?snr=1_7_7_151_150_1"
     }
   },
+  "unravel": {
+    "epic": {
+      "id": "unravel-ce69bb",
+      "slug": "unravel",
+      "title": "Unravel",
+      "url": "https://store.epicgames.com/en-US/p/unravel-ce69bb"
+    }
+  },
   "baldurs-gate-3": {
+    "gog": {
+      "id": "1456460669",
+      "slug": "baldurs-gate-3",
+      "title": "Baldur's Gate 3",
+      "url": "https://www.gog.com/en/game/baldurs_gate_iii"
+    },
     "metacritic": {
       "id": "baldurs-gate-3",
       "slug": "baldurs-gate-3",
