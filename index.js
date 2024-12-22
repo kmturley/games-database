@@ -4,8 +4,21 @@ import Epic from "./src/Epic.js";
 import Gog from "./src/Gog.js";
 import Metacritic from "./src/Metacritic.js";
 import Steam from "./src/Steam.js";
+import xmljs from "xml-js";
 
+// Hardcoded query example
 const queries = ['Baldur\'s Gate 3', 'Counter-Strike 2', 'LEGO® Bricktales'];
+
+// Steam query example
+// const STEAM_USERNAME = 'kmtlondon';
+// const STEAM_URL = `https://steamcommunity.com/id/${STEAM_USERNAME}/games?xml=1`;
+// const steamXml = await fetch(STEAM_URL);
+// const steamJson = xmljs.xml2js(await steamXml.text(), {compact: true});
+// const steamTitles = steamJson.gamesList.games.game.map((game) => {
+//   return game.name._cdata;
+// });
+// const queries = steamTitles.slice(0, 5);
+// console.log('queries', queries);
 
 const epic = new Epic();
 const epicItems = await epic.search(queries);
