@@ -7,6 +7,7 @@ export default class Datastore {
   constructor(name) {
     if (name) {
       this.name = name;
+      this.dirIndex = path.join(this.dirRoot, name);
       this.dirId = path.join(this.dirRoot, name, 'id');
       this.dirSlug = path.join(this.dirRoot, name, 'slug');
       this.createDir(this.dirId);
@@ -33,15 +34,20 @@ export default class Datastore {
     });
   }
 
-  createIndex(index, name, items) {
+  createIndex(items, index = {}, name) {
     items.forEach((item) => {
-      if (!index[item.slug]) index[item.slug] = {};
-      if (!index[item.slug][name]) index[item.slug][name] = item;
+      if (name) {
+        if (!index[item.slug]) index[item.slug] = {};
+        if (!index[item.slug][name]) index[item.slug][name] = item;
+      } else {
+        if (!index[item.slug]) index[item.slug] = item;
+      }
+      
     });
     return index;
   }
 
   saveIndex(data) {
-    this.createFile(path.join(this.dirRoot, 'index.json'), data);
+    this.createFile(path.join(this.dirIndex ||  this.dirRoot, 'index.json'), data);
   }
 }

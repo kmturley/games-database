@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node index.js",
+    "dev:csv": "node csv.js",
     "postinstall": "npx playwright install",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -7,14 +7,15 @@ export default class Gog extends Site {
       return {
         id: await page.$eval('a[data-product-id]', (el) => el.getAttribute('data-product-id')),
         slug: this.generateSlug(title),
-        title,
+        title: this.sanitizeTitle(title),
         url: await page.$eval('a[data-product-id]', (el) => el.getAttribute('href')),
       }
     };
     const options = {
       js: true,
       root: 'https://www.gog.com',
-      search: '/en/games?query='
+      search: '/en/games?query=',
+      params: ''
     };
     super(options, callback);
   }

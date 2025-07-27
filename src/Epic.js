@@ -10,13 +10,14 @@ export default class Epic extends Site {
       return {
         id: el.attr('href').split('/').pop(),
         slug: this.generateSlug(title),
-        title,
+        title: this.sanitizeTitle(title),
         url: options.root + el.attr('href'),
       }
     };
     const options = {
       root: 'https://store.epicgames.com',
-      search: '/en-US/browse?q='
+      search: '/en-US/browse?q=',
+      params: ''
     };
     super(options, callback);
   }

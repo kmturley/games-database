@@ -9,13 +9,14 @@ export default class Metacritic extends Site {
         id: el.attr('href').split('/').at(-2),
         slug: this.generateSlug(title),
         score: Number($(el).find(`.c-siteReviewScore span`).first().text()),
-        title,
+        title: this.sanitizeTitle(title),
         url: options.root + el.attr('href'),
       }
     };
     const options = {
       root: 'https://www.metacritic.com',
-      search: '/search/'
+      search: '/search/',
+      params: '/?category=13'
     };
     super(options, callback);
   }
