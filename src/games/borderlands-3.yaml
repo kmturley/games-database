@@ -1,0 +1,15 @@
+slug: borderlands-3
+title: Borderlands 3
+description: ''
+developer: ''
+publisher: ''
+genres: []
+released: ''
+sites:
+  epic:
+    id: catnip
+    url: https://store.epicgames.com/en-US/p/borderlands-3
+  steam:
+    id: '397540'
+    url: https://store.steampowered.com/app/397540/Borderlands_3/?snr=1_7_7_151_150_1
+platforms: {}

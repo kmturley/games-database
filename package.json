@@ -3,24 +3,59 @@
   "version": "1.0.0",
   "description": "Example games database",
   "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node index.js",
-    "postinstall": "npx playwright install",
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "./build/index.js",
+  "exports": {
+    "node": "./build/index.js",
+    "default": "./build/index-browser.js"
   },
+  "types": "./build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "npm run format && npm run lint && npm run build",
+    "dev": "tsx ./src/fetch.ts",
+    "format": "prettier . --write",
+    "lint": "eslint .",
+    "start": "node build/index.js",
+    "test": "vitest run ./tests --hook-timeout=60000 --test-timeout=60000 --no-file-parallelism",
+    "test:api": "playwright test --debug",
+    "test:watch": "vitest ./tests"
+  },
+  "author": "kmturley",
+  "license": "cc0-1.0",
   "keywords": [
     "games",
     "database"
   ],
-  "author": "kmturley",
-  "license": "MIT",
-  "dependencies": {
-    "crawlee": "^3.11.3",
-    "playwright": "^1.47.0",
-    "puppeteer": "^23.3.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@playwright/test": "^1.48.2",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.7.8",
+    "@vitest/coverage-v8": "^3.0.5",
+    "crawlee": "^3.14.0",
+    "eslint": "^9.31.0",
+    "globals": "^15.2.0",
+    "js-yaml": "^4.1.0",
+    "playwright": "1.46",
+    "prettier": "^3.2.5",
+    "puppeteer": "^24.15.0",
     "slugify": "^1.6.6",
-    "xml-js": "^1.6.11"
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.37.0",
+    "vitest": "^3.0.5"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmturley/games-database.git"
   }
 }

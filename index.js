@@ -1,13 +1,12 @@
-
-import Datastore from "./src/Datastore.js";
-import Epic from "./src/Epic.js";
-import Gog from "./src/Gog.js";
-import Metacritic from "./src/Metacritic.js";
-import Steam from "./src/Steam.js";
-import xmljs from "xml-js";
+import Datastore from './src/Datastore.js';
+import Epic from './src/Epic.js';
+import Gog from './src/Gog.js';
+import Metacritic from './src/Metacritic.js';
+import Steam from './src/Steam.js';
+// import xmljs from 'xml-js';
 
 // Hardcoded query example
-const queries = ['Baldur\'s Gate 3', 'Counter-Strike 2', 'LEGO® Bricktales'];
+const queries = ["Baldur's Gate 3", 'Counter-Strike 2', 'LEGO® Bricktales'];
 
 // Steam query example
 // const STEAM_USERNAME = 'kmtlondon';

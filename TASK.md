@@ -1,0 +1,2 @@
+- npm run dev -> runs scraper and generates yaml files
+- npm run build -> Typescript and schema validation, generate json structure

@@ -38,7 +38,6 @@ By Id
 - https://kmturley.github.io/games-database/metacritic/id/lego-bricktales.json
 - https://kmturley.github.io/games-database/steam/id/1898290.json
 
-
 ## Contact
 
 For more information please contact kmturley
